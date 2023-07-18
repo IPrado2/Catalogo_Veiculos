@@ -9,7 +9,7 @@ Este é um projeto de catálogo de veículos, desenvolvido com Django (API) no b
 - Node.js (versão 18.16.0)
 - Angular CLI (versão 16.1.4)
 
-## Configuração
+## Configuração e Execução
 
 1. Clone o repositório:
 
@@ -34,6 +34,7 @@ Este é um projeto de catálogo de veículos, desenvolvido com Django (API) no b
       pip install -r requirements.txt
       cd Catalogo_v\
       python manage.py migrate
+      python manage.py runserver
       ```
 <br>
 
@@ -42,29 +43,20 @@ Este é um projeto de catálogo de veículos, desenvolvido com Django (API) no b
       ```shell
       cd Angular
       npm install
- <br>  
-
-## Execução
-
-1. Inicie o servidor do back-end:
-
-      ```shell
-     cd Django
-     source catalogo_veiculos/bin/activate
-     python manage.py runserver
-<br>
-
-3. Inicie o servidor de desenvolvimento do front-end:
-
-      ```shell
-      cd Angular
       ng serve --open
-<br>
+ <br>  
 
 4. Acesse o aplicativo em seu navegador:
 
    ```shell
    http://localhost:4200
+   ```
+(O endereço de acesso pode mudar, verifique o console, o endereço será informado por lá)<br>
 
-(O endereço de acesso pode mudar, verifique o console, o endereço será informado por lá)
+   <br>
+   Para acessar o Painel de administrador é necessário fazer login:<br>
+      Login: root<br>
+      Senha: root<br>
+
+
 
