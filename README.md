@@ -18,7 +18,7 @@ Este é um projeto de catálogo de veículos, desenvolvido com Django (API) no b
 <br>
 
 2. Configure o ambiente do back-end (Django):
-<br> 
+
    ```shell
      cd Django
      python3 -m venv catalogo_veiculos
