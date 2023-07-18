@@ -3,6 +3,12 @@
 
 Este é um projeto de catálogo de veículos, desenvolvido com Django (API) no back-end e Angular (front-end) no front-end. O catálogo permite a listagem, criação, edição e exclusão de veículos.
 
+## Tecnologias Utilizadas
+A seguir, estão as principais tecnologias e linguagens utilizadas para o desenvolvimento deste projeto:
+
+- Linguagens: Django, Angular. 
+- Banco de Dados: SQLite.
+
 ## Requisitos
 
 - Python (versão 3.10.6)
@@ -54,9 +60,35 @@ Este é um projeto de catálogo de veículos, desenvolvido com Django (API) no b
 (O endereço de acesso pode mudar, verifique o console, o endereço será informado por lá)<br>
 
    <br>
-   Para acessar o Painel de administrador é necessário fazer login:<br>
-      Login: root<br>
-      Senha: root<br>
+
+## Funcionamento   
+   <br>
+1. Página Home<br>
+   A página inicial (Home) é a vitrine dos veículos disponíveis no sistema. As principais funcionalidades são:<br>
+
+1.1 Listagem de Veículos: Todos os veículos são exibidos em uma lista, organizada por ordem de valor, do mais barato ao mais caro. Cada item da lista apresenta informações como marca, modelo, ano, cor e valor.
+
+1.2 Filtros por Marca e Modelo: A página oferece filtros que permitem ao usuário pesquisar veículos específicos por marca e modelo. Isso torna a experiência do usuário mais amigável e facilita a busca por veículos desejados.
+
+# Painel de Administração
+<br>
+2. O Painel de Administração é uma área restrita e protegida do sistema que só pode ser acessada após o login com as credenciais a seguir:<br>
+
+   Login: root<br>
+   Senha: root<br>
+<br>
+Dentro do Painel de Administração, o usuário possui as seguintes funcionalidades:<br>
+
+2.1 Cadastro de Marca: Permite adicionar novas marcas ao sistema. Ao cadastrar uma nova marca, ela estará disponível para associar a diferentes modelos.<br>
+
+2.2 Cadastro de Modelo: Permite adicionar novos modelos associados às marcas já cadastradas. Ter modelos separados facilita a organização e busca dos veículos.<br>
+
+2.3 Cadastro de Veículo: Oferece a possibilidade de inserir novos veículos no sistema. Cada veículo cadastrado pode ter uma marca, modelo, ano, cor e valor específicos.<br>
+
+2.4 Edição de Marca, Modelo e Veículo: Permite que o usuário realize alterações nos dados das marcas, modelos e veículos já existentes no sistema.<br>
+
+2.5 Exclusão de Marca, Modelo e Veículo: Dá a opção de remover marcas, modelos ou veículos que não sejam mais relevantes ou estejam incorretos.<br>
+
 
 
 
