@@ -20,14 +20,10 @@ Este é um projeto de catálogo de veículos, desenvolvido com Django (API) no b
 2. Configure o ambiente do back-end (Django):<br>
    (Em alguns casos é necessário utilizar 'python3' e 'pip3', dependendo da versão do seu python e do sistema operacional)<br>
 
-   ```shell
+      ```shell
      cd Django
      python -m venv catalogo_veiculos
-   ```  
-  
-LINUX:<br>
 
-   ```shell
       LINUX:
             source catalogo_veiculos/bin/activate
 
@@ -38,7 +34,7 @@ LINUX:<br>
       pip install -r requirements.txt
       cd Catalogo_v\
       python manage.py migrate
-   ```
+      ```
 <br>
 
 3. Configure o ambiente do front-end (Angular):
