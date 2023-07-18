@@ -73,9 +73,9 @@ A seguir, estão as principais tecnologias e linguagens utilizadas para o desenv
 # Painel de Administração
 <br>
 2. O Painel de Administração é uma área restrita e protegida do sistema que só pode ser acessada após o login com as credenciais a seguir:<br><br>
-- Login: root
-- Senha: root
-<br>
+- Login: root<br>
+- Senha: root<br>
+<br><br>
 Dentro do Painel de Administração, o usuário possui as seguintes funcionalidades:<br><br>
 
 2.1 Cadastro de Marca: Permite adicionar novas marcas ao sistema. Ao cadastrar uma nova marca, ela estará disponível para associar a diferentes modelos.<br>
