@@ -68,7 +68,7 @@ A seguir, estão as principais tecnologias e linguagens utilizadas para o desenv
 <br>
 1.1 Listagem de Veículos: Todos os veículos são exibidos em uma lista, organizada por ordem de valor, do mais barato ao mais caro. Cada item da lista apresenta informações como marca, modelo, ano, cor e valor.<br><br>
 
-1.2 Filtros por Marca e Modelo: A página oferece filtros que permitem ao usuário pesquisar veículos específicos por marca e modelo. Isso torna a experiência do usuário mais amigável e facilita a busca por veículos desejados.<br>
+1.2 Filtros por Marca e Modelo: A página oferece filtros que permitem ao usuário pesquisar veículos específicos por marca e modelo. Isso torna a experiência do usuário mais amigável e facilita a busca por veículos desejados.<br><br>
 
 ## Painel de Administração
 <br>
