@@ -28,7 +28,7 @@ Este é um projeto de catálogo de veículos, desenvolvido com Django (API) no b
 <br>
 
 3. Configure o frontend
-<br> 
+
       ```shell
       cd Angular
       npm install
@@ -37,7 +37,7 @@ Este é um projeto de catálogo de veículos, desenvolvido com Django (API) no b
 ## Execução
 
 1. Inicie o servidor do back-end:
-<br>
+
       ```shell
      cd Django
      source catalogo_veiculos/bin/activate
@@ -45,14 +45,14 @@ Este é um projeto de catálogo de veículos, desenvolvido com Django (API) no b
 <br>
 
 3. Inicie o servidor de desenvolvimento do front-end:
-<br>
+
       ```shell
       cd Angular<br>
       ng serve --open<br>
 <br>
 
 4. Acesse o aplicativo em seu navegador:
-<br>
+
    ```shell
    http://localhost:4200<br>
    (O endereço de acesso pode mudar, verifique o console, o endereço será informado por lá)<br>
