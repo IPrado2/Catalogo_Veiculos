@@ -18,37 +18,42 @@ Este é um projeto de catálogo de veículos, desenvolvido com Django (API) no b
 <br>
 
 2. Configure o ambiente do back-end (Django):
+<br> 
    ```shell
-     cd Django<br>
-     python3 -m venv catalogo_veiculos<br>
-     source catalogo_veiculos/bin/activate<br>
-     pip3 install -r requirements.txt<br>
-     python3 manage.py migrate<br>
+     cd Django
+     python3 -m venv catalogo_veiculos
+     source catalogo_veiculos/bin/activate
+     pip3 install -r requirements.txt
+     python3 manage.py migrate
 <br>
 
 3. Configure o frontend
-
-      cd Angular<br>
-      npm install<br>
+<br> 
+      ```shell
+      cd Angular
+      npm install
  <br>  
 
 ## Execução
 
 1. Inicie o servidor do back-end:
-
-     cd Django<br>
-     source catalogo_veiculos/bin/activate<br>
-     python manage.py runserver<br>
+<br>
+      ```shell
+     cd Django
+     source catalogo_veiculos/bin/activate
+     python manage.py runserver
 <br>
 
-2. Inicie o servidor de desenvolvimento do front-end:
-
+3. Inicie o servidor de desenvolvimento do front-end:
+<br>
+      ```shell
       cd Angular<br>
       ng serve --open<br>
 <br>
 
-3. Acesse o aplicativo em seu navegador:
-
+4. Acesse o aplicativo em seu navegador:
+<br>
+   ```shell
    http://localhost:4200<br>
    (O endereço de acesso pode mudar, verifique o console, o endereço será informado por lá)<br>
 
