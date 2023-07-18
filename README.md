@@ -70,7 +70,7 @@ A seguir, estão as principais tecnologias e linguagens utilizadas para o desenv
 
 1.2 Filtros por Marca e Modelo: A página oferece filtros que permitem ao usuário pesquisar veículos específicos por marca e modelo. Isso torna a experiência do usuário mais amigável e facilita a busca por veículos desejados.<br>
 
-# Painel de Administração
+## Painel de Administração
 <br>
 2. O Painel de Administração é uma área restrita e protegida do sistema que só pode ser acessada após o login com as credenciais a seguir:<br><br>
 - Login: root<br>
