@@ -25,25 +25,20 @@ Este é um projeto de catálogo de veículos, desenvolvido com Django (API) no b
      python -m venv catalogo_veiculos
    ```  
   
-Os passos a seguir dependem da versão do seu sistema operacional:<br>
-
 LINUX:<br>
 
    ```shell
-     source catalogo_veiculos/bin/activate
-   ```
-<br>
-WINDOWS:<br>
-   . POWERSHELL (ADMIN):<br>
-      
-      Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
-      .\catalogo_veiculos\Scripts\Activate.ps1
-      
+      LINUX:
+            source catalogo_veiculos/bin/activate
 
+      WINDOWS (POWERSHELL - ADMIN):
+            Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
+            .\catalogo_veiculos\Scripts\Activate.ps1
 
       pip install -r requirements.txt
       cd Catalogo_v\
       python manage.py migrate
+   ```
 <br>
 
 3. Configure o ambiente do front-end (Angular):
