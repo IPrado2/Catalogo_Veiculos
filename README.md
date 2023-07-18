@@ -63,17 +63,16 @@ A seguir, estão as principais tecnologias e linguagens utilizadas para o desenv
 
 ## Funcionamento   
    <br>
-1. Página Home<br>
+1. Página Home<br><br>
    A página inicial (Home) é a vitrine dos veículos disponíveis no sistema. As principais funcionalidades são:<br>
+<br>
+1.1 Listagem de Veículos: Todos os veículos são exibidos em uma lista, organizada por ordem de valor, do mais barato ao mais caro. Cada item da lista apresenta informações como marca, modelo, ano, cor e valor.<br>
 
-1.1 Listagem de Veículos: Todos os veículos são exibidos em uma lista, organizada por ordem de valor, do mais barato ao mais caro. Cada item da lista apresenta informações como marca, modelo, ano, cor e valor.
-
-1.2 Filtros por Marca e Modelo: A página oferece filtros que permitem ao usuário pesquisar veículos específicos por marca e modelo. Isso torna a experiência do usuário mais amigável e facilita a busca por veículos desejados.
+1.2 Filtros por Marca e Modelo: A página oferece filtros que permitem ao usuário pesquisar veículos específicos por marca e modelo. Isso torna a experiência do usuário mais amigável e facilita a busca por veículos desejados.<br>
 
 # Painel de Administração
 <br>
-2. O Painel de Administração é uma área restrita e protegida do sistema que só pode ser acessada após o login com as credenciais a seguir:<br>
-
+2. O Painel de Administração é uma área restrita e protegida do sistema que só pode ser acessada após o login com as credenciais a seguir:<br><br>
    Login: root<br>
    Senha: root<br>
 <br>
@@ -90,5 +89,8 @@ Dentro do Painel de Administração, o usuário possui as seguintes funcionalida
 2.5 Exclusão de Marca, Modelo e Veículo: Dá a opção de remover marcas, modelos ou veículos que não sejam mais relevantes ou estejam incorretos.<br>
 
 
+## Contato
+Caso tenha alguma dúvida, sugestão ou queira entrar em contato, sinta-se à vontade para enviar um e-mail para igorprado022@gmail.com.<br><br>
 
+Espero que este projeto seja útil e ajude a aprimorar seus conhecimentos em desenvolvimento web! Obrigado por utilizar esta aplicação.<br>
 
