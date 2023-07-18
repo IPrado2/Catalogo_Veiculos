@@ -1,0 +1,110 @@
+<div class="d-flex vh-100">
+  <div class="sidebar d-flex flex-column vh-100 flex-shrink-0 p-3 text-white" style="width: 250px;">
+    <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+      <span class="fs-4">Painel Admin</span>
+    </a>
+    <hr>
+    <ul class="nav nav-pills flex-column mb-auto">
+      <li class="nav-item">
+        <a routerLink="/home" class="nav-link text-white">
+          <i class="fa fa-home"></i>
+          <span class="sidebar-text ms-2">Home</span>
+        </a>
+      </li>
+      <li>
+        <a class="nav-link text-white" (click)="showAdmin = false; showConfig = false; showMarcas = true; showModelos = false; showVeiculos = false;">
+          <i class="fas fa-tag"></i>
+          <span class="sidebar-text ms-2 pointer">Marcas</span>
+        </a>
+      </li>
+      <li>
+        <a class="nav-link text-white" (click)="showAdmin = false; showConfig = false; showModelos = true; showMarcas = false; showVeiculos = false;">
+          <i class="fa fa-cogs"></i>
+          <span class="sidebar-text ms-2 pointer">Modelos</span>
+        </a>
+      </li>
+      <li>
+        <a class="nav-link text-white" (click)="showAdmin = false; showConfig = false; showVeiculos = true; showModelos = false; showMarcas = false;">
+          <i class="fas fa-car"></i>
+          <span class="sidebar-text ms-2 pointer">Veiculos</span>
+        </a>
+      </li>
+      <li>
+        <a class="nav-link text-white" (click)="showAdmin = false; showConfig = true; showVeiculos = false; showModelos = false; showMarcas = false;">
+          <i class="fa fa-cog"></i>
+          <span class="sidebar-text ms-2 pointer">Configurações</span>
+        </a>
+      </li>
+    </ul>
+    <hr>
+    <div class="dropdown">
+      <a class="d-flex align-items-center text-white text-decoration-none">
+        <i class="fas fa-user me-2"></i>
+        <strong>Admin</strong>
+      </a>
+    </div>
+  </div>
+
+  <div class="container">
+    
+    <div *ngIf="showAdmin" class="cards p-5 row d-flex align-items-center justify-content-center">
+      <h1>Seja Bem Vindo {{user}}!</h1>
+      <hr>
+      <div class="col-sm-6 col-lg-6">
+          <div class="card l-bg-blue-dark">
+              <div class="card-statistic-3 p-4">
+                <div class="card-icon card-icon-large"><i class="fas fa-car"></i></div>
+                <div class="mb-4">
+                    <h5 class="card-title mb-0">Total de Veículos:</h5>
+                </div>
+                <div class="row align-items-center mb-2 d-flex">
+                    <div class="col-8">
+                        <h2 class="text-card d-flex align-items-center mb-0">
+                           <b>{{veiculosListLenght}}</b>
+                        </h2>
+                    </div>
+                </div>
+              </div>
+          </div>
+      </div>
+      <div class="col-sm-6 col-lg-6">
+          <div class="card l-bg-green-dark">
+              <div class="card-statistic-3 p-4">
+                <div class="card-icon card-icon-large"><i class="fas fa-check"></i></div>
+                <div class="mb-4">
+                    <h5 class="card-title mb-0">Total de Vendas:</h5>
+                </div>
+                <div class="row align-items-center mb-2 d-flex">
+                    <div class="col-8">
+                        <h2 class="text-card d-flex align-items-center mb-0">
+                            <b>22</b>
+                        </h2>
+                    </div>
+                </div>
+              </div>
+          </div>
+      </div>
+      
+    </div>
+
+    
+    
+    <div class="row">
+      <div class="col">
+        <div *ngIf="showMarcas">
+          <app-show-marcas></app-show-marcas>
+        </div>
+        <div *ngIf="showModelos">
+          <app-show-modelos></app-show-modelos>
+        </div>
+        <div *ngIf="showVeiculos">
+          <app-show-veiculos></app-show-veiculos>
+        </div>
+        <div *ngIf="showConfig">
+          <app-show-config></app-show-config>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+</div>

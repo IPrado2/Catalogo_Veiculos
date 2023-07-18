@@ -1,0 +1,39 @@
+<h1 mat-dialog-title>Editar #{{data.id}}</h1>
+<div mat-dialog-content>
+  <p>Por favor digite o novo nome</p>
+  <mat-form-field>
+    <mat-label>Nome</mat-label>
+    <input matInput [(ngModel)]="data.nome">
+  </mat-form-field>
+  <mat-form-field> 
+  <mat-label>Marca</mat-label>
+    <mat-select [(ngModel)]="data.marca_id" name="marca">
+      <mat-option *ngFor="let marca of marcas" [value]="marca.marca_id">
+        {{ marca.nome }}
+      </mat-option>
+    </mat-select>
+  </mat-form-field>
+
+  <mat-form-field>
+    <mat-label>Modelo</mat-label>
+    <mat-select [(ngModel)]="data.modelo_id" name="modelo">
+      <mat-option *ngFor="let modelo of modelos" [value]="modelo.modelo_id">
+        {{ modelo.nome }}
+      </mat-option>
+    </mat-select>
+  </mat-form-field>
+  
+  <mat-form-field>
+    <mat-label>Valor</mat-label>
+    <input matInput [(ngModel)]="data.valor">
+  </mat-form-field>
+  
+  <div class="mat-form-field">
+      <input type="file" class="mat-input-file" (change)="onFileSelected($event)">
+  </div>
+  
+</div>
+<div mat-dialog-actions>
+  <button mat-button (click)="onNoClick()">Fechar</button>
+  <button mat-button cdkFocusInitial [mat-dialog-close]="data">Salvar</button>
+</div>

@@ -1,0 +1,53 @@
+<div class="container mt-3 px-2">
+  <h2>Veiculos</h2>
+  <hr>
+  <div class="position-relative" style="width: 90%;">
+    <span class="position-absolute search">
+      <i class="fa fa-search"></i>
+    </span>
+    <div class="d-flex align-items-center">
+      <input class="search form-control" placeholder="Procurar.." style="flex: 1;" (input)="searchVeiculos($event)">
+      <button type="button" style="margin-left: 1rem;" class="btn btn-success" (click)="createDialog()">Novo</button>
+    </div>
+  </div>
+  <div class="table-responsive mt-2">
+    <table class="table table-responsive table-borderless" >
+      <thead>
+        <tr>
+          <th class="bg-colunas" scope="col" width="2%">#</th>
+          <th class="bg-colunas" scope="col" width="15%">Nome</th>
+          <th class="bg-colunas" scope="col" width="10%">Marca</th>
+          <th class="bg-colunas" scope="col" width="10%">Modelo</th>
+          <th class="bg-colunas" scope="col" width="10%">Valor</th>
+          <th class="bg-colunas" scope="col" width="10%">Ações</th>
+        </tr>
+      </thead>
+      <tbody>
+        <ng-container *ngIf="veiculosList.length > 0; else noData">
+          <tr *ngFor="let item of veiculosList | paginate: { itemsPerPage: pageSize, currentPage: currentPage, totalItems: veiculosList.length }">
+            <td class="bg-colunas">{{item.veiculo_id}}</td>
+            <td class="bg-colunas">{{item.nome}}</td>
+            <td class="bg-colunas">{{item.marca}}</td>
+            <td class="bg-colunas">{{item.modelo}}</td>
+            <td class="bg-colunas">R$ {{item.valor}}</td>
+            <td class="bg-colunas">
+              <button type="button" style="margin-right: 2px" mat-raised-button (click)="openDialog(item.veiculo_id)" class="btn btn-info">Editar</button>
+              <button type="button" style="margin-right: 2px" mat-raised-button (click)="deleteDialog(item.veiculo_id)" class="btn btn-danger">Deletar</button>
+            </td>
+          </tr>
+        </ng-container>
+      </tbody>
+    </table> 
+    <ng-template #noData>
+      <div class="text-center">Não há dados disponíveis.</div>
+    </ng-template>
+    
+    <!-- Paginação -->
+    <pagination-controls 
+        previousLabel="Anterior"
+        nextLabel="Próximo"
+        (pageChange)="handlePageChange($event)"
+    ></pagination-controls>
+    
+  </div>   
+</div>

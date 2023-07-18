@@ -1,0 +1,16 @@
+
+body {
+  background-color: #fff;
+}
+
+.toast-success {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+.toast-error {
+  background-color: #f44336;
+  color: #fff;
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

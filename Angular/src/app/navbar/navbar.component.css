@@ -1,0 +1,16 @@
+
+.navbar {
+  background-color: #0B3948;
+}
+
+.navbar-nav .nav-link {
+  color: #D9DBF1;
+}
+
+.navbar-brand {
+  color: #D9DBF1;
+}
+
+.clickable {
+  cursor: pointer;
+}

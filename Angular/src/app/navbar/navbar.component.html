@@ -1,0 +1,31 @@
+<nav class="navbar navbar-expand-lg navbar-light shadow">
+  <div class="container">
+    <!-- Logomarca -->
+    <a class="navbar-brand" routerLink="/home">
+      <img src="assets/img/logo.png" alt="Logo" style="max-width: 30%; height: auto;">
+    </a>
+
+
+    <!-- Ícone do menu responsivo -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Itens do menu -->
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link mx-2" routerLink="/home">Comprar Carro</a>
+        </li>
+        <li class="nav-item" *ngIf="isLoggedIn">
+          <a class="nav-link mx-2 clickable" routerLink="/admin">Painel Admin</a>
+        </li>
+        <li class="nav-item">
+          <a *ngIf="!isLoggedIn" class="nav-link mx-2" routerLink="/login"><i class="fas fa-user"></i> Login</a>
+          <a *ngIf="isLoggedIn" class="nav-link mx-2 clickable" (click)="logout()"><i class="fas fa-user"></i> Logout</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>

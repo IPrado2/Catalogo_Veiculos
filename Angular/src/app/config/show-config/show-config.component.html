@@ -1,0 +1,18 @@
+<div class="container mt-3 px-2">
+  <h2>Configurações</h2>
+  <hr>
+  
+  <div class="form-group">
+    <label for="token">
+      Token (Válido por 30 minutos)
+    </label>
+    <input type="text" class="form-control" id="token" name="token" value="{{token}}" disabled>
+  </div>
+  
+  <div class="form-group mt-3">
+  	<label for="r_admin">
+      Registrar novo admin
+    </label>
+  </div>
+  <button type="button" style="margin-right: 2px" routerLink="/register" class="btn btn-info mt-3">Novo Admin</button>
+</div>

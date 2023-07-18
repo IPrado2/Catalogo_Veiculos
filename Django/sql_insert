@@ -1,0 +1,32 @@
+INSERT INTO "CatalagoApp_modelo" ("modelo_id", "nome") VALUES ('1', 'Sedan');
+INSERT INTO "CatalagoApp_modelo" ("modelo_id", "nome") VALUES ('2', 'Hatch');
+INSERT INTO "CatalagoApp_modelo" ("modelo_id", "nome") VALUES ('3', 'SUV');
+INSERT INTO "CatalagoApp_modelo" ("modelo_id", "nome") VALUES ('4', 'Picape');
+INSERT INTO "CatalagoApp_modelo" ("modelo_id", "nome") VALUES ('5', 'Vans ou utilitários');
+
+
+INSERT INTO "CatalagoApp_marca" ("marca_id", "nome") VALUES ('1', 'Chevrolet');
+INSERT INTO "CatalagoApp_marca" ("marca_id", "nome") VALUES ('2', 'Volkswagen');
+INSERT INTO "CatalagoApp_marca" ("marca_id", "nome") VALUES ('3', 'Fiat');
+INSERT INTO "CatalagoApp_marca" ("marca_id", "nome") VALUES ('4', 'Hyundai');
+INSERT INTO "CatalagoApp_marca" ("marca_id", "nome") VALUES ('5', 'Toyota');
+INSERT INTO "CatalagoApp_marca" ("marca_id", "nome") VALUES ('6', 'Jeep');
+INSERT INTO "CatalagoApp_marca" ("marca_id", "nome") VALUES ('7', 'Renault');
+INSERT INTO "CatalagoApp_marca" ("marca_id", "nome") VALUES ('8', 'Honda');
+INSERT INTO "CatalagoApp_marca" ("marca_id", "nome") VALUES ('9', 'Nissan');
+INSERT INTO "CatalagoApp_marca" ("marca_id", "nome") VALUES ('10', 'Peugeot');
+INSERT INTO "CatalagoApp_marca" ("marca_id", "nome") VALUES ('11', 'BMW');
+
+
+INSERT INTO "CatalagoApp_veiculo" ("veiculo_id", "nome", "foto", "marca_id", "modelo_id", "valor") VALUES ('1', 'Cruze', 'cruze.png', '1', '1', '149390');
+INSERT INTO "CatalagoApp_veiculo" ("veiculo_id", "nome", "foto", "marca_id", "modelo_id", "valor") VALUES ('2', 'Golf', 'golf.png', '2', '2', '128800');
+INSERT INTO "CatalagoApp_veiculo" ("veiculo_id", "nome", "foto", "marca_id", "modelo_id", "valor") VALUES ('3', 'Toro', 'toro.png', '3', '4', '73000');
+INSERT INTO "CatalagoApp_veiculo" ("veiculo_id", "nome", "foto", "marca_id", "modelo_id", "valor") VALUES ('4', 'Creta', 'creta.png', '4', '3', '76000');
+INSERT INTO "CatalagoApp_veiculo" ("veiculo_id", "nome", "foto", "marca_id", "modelo_id", "valor") VALUES ('5', 'Corolla', 'corolla.png', '5', '1', '148000');
+INSERT INTO "CatalagoApp_veiculo" ("veiculo_id", "nome", "foto", "marca_id", "modelo_id", "valor") VALUES ('6', 'Compass', 'compass.png', '6', '3', '176790');
+INSERT INTO "CatalagoApp_veiculo" ("veiculo_id", "nome", "foto", "marca_id", "modelo_id", "valor") VALUES ('7', 'Duster', 'duster.png', '7', '3', '109590');
+INSERT INTO "CatalagoApp_veiculo" ("veiculo_id", "nome", "foto", "marca_id", "modelo_id", "valor") VALUES ('8', 'Civic', 'civic.png', '8', '1', '69000');
+INSERT INTO "CatalagoApp_veiculo" ("veiculo_id", "nome", "foto", "marca_id", "modelo_id", "valor") VALUES ('9', 'Frontier', 'frontier.png', '9', '4', '264190');
+INSERT INTO "CatalagoApp_veiculo" ("veiculo_id", "nome", "foto", "marca_id", "modelo_id", "valor") VALUES ('10', 'Partner', 'partner.png', '10', '5', '69000');
+INSERT INTO "CatalagoApp_veiculo" ("veiculo_id", "nome", "foto", "marca_id", "modelo_id", "valor") VALUES ('11', 'Gol', 'gol.png', '2', '1', '75490');
+INSERT INTO "CatalagoApp_veiculo" ("veiculo_id", "nome", "foto", "marca_id", "modelo_id", "valor") VALUES ('12', 'BMW X1', 'bmw.png', '11', '3', '116490');
