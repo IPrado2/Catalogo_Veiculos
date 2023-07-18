@@ -27,7 +27,7 @@ Este é um projeto de catálogo de veículos, desenvolvido com Django (API) no b
      python3 manage.py migrate
 <br>
 
-3. Configure o frontend
+3. Configure o ambiente do front-end (Angular):
 
       ```shell
       cd Angular
