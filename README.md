@@ -66,17 +66,17 @@ A seguir, estão as principais tecnologias e linguagens utilizadas para o desenv
 1. Página Home<br><br>
    A página inicial (Home) é a vitrine dos veículos disponíveis no sistema. As principais funcionalidades são:<br>
 <br>
-1.1 Listagem de Veículos: Todos os veículos são exibidos em uma lista, organizada por ordem de valor, do mais barato ao mais caro. Cada item da lista apresenta informações como marca, modelo, ano, cor e valor.<br>
+1.1 Listagem de Veículos: Todos os veículos são exibidos em uma lista, organizada por ordem de valor, do mais barato ao mais caro. Cada item da lista apresenta informações como marca, modelo, ano, cor e valor.<br><br>
 
 1.2 Filtros por Marca e Modelo: A página oferece filtros que permitem ao usuário pesquisar veículos específicos por marca e modelo. Isso torna a experiência do usuário mais amigável e facilita a busca por veículos desejados.<br>
 
 # Painel de Administração
 <br>
 2. O Painel de Administração é uma área restrita e protegida do sistema que só pode ser acessada após o login com as credenciais a seguir:<br><br>
-   Login: root<br>
-   Senha: root<br>
+- Login: root
+- Senha: root
 <br>
-Dentro do Painel de Administração, o usuário possui as seguintes funcionalidades:<br>
+Dentro do Painel de Administração, o usuário possui as seguintes funcionalidades:<br><br>
 
 2.1 Cadastro de Marca: Permite adicionar novas marcas ao sistema. Ao cadastrar uma nova marca, ela estará disponível para associar a diferentes modelos.<br>
 
