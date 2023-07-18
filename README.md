@@ -5,9 +5,9 @@ Este é um projeto de catálogo de veículos, desenvolvido com Django (API) no b
 
 ## Requisitos
 
-- Python (versão 3.10.6)<br>
-- Node.js (versão 18.16.0)<br>
-- Angular CLI (versão 16.1.4)<br>
+- Python (versão 3.10.6)
+- Node.js (versão 18.16.0)
+- Angular CLI (versão 16.1.4)
 
 ## Configuração
 
@@ -47,13 +47,14 @@ Este é um projeto de catálogo de veículos, desenvolvido com Django (API) no b
 3. Inicie o servidor de desenvolvimento do front-end:
 
       ```shell
-      cd Angular<br>
-      ng serve --open<br>
+      cd Angular
+      ng serve --open
 <br>
 
 4. Acesse o aplicativo em seu navegador:
 
    ```shell
-   http://localhost:4200<br>
-   (O endereço de acesso pode mudar, verifique o console, o endereço será informado por lá)<br>
+   http://localhost:4200
+
+(O endereço de acesso pode mudar, verifique o console, o endereço será informado por lá)
 
