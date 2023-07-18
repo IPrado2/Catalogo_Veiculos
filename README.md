@@ -1,7 +1,7 @@
 
 # Catálogo de Veículos
 
-Este é um projeto de catálogo de veículos, desenvolvido com Django (API) no back-end e Angular (front-end) no front-end. O catálogo permite a listagem, edição e exclusão de veículos.
+Este é um projeto de catálogo de veículos, desenvolvido com Django (API) no back-end e Angular (front-end) no front-end. O catálogo permite a listagem, criação, edição e exclusão de veículos.
 
 ## Requisitos
 
