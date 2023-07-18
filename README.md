@@ -18,7 +18,7 @@ Este é um projeto de catálogo de veículos, desenvolvido com Django (API) no b
 
 2. Configure o ambiente do back-end (Django):
 
-  cd Django
+  cd Django<br>
   python3 -m venv catalogo_veiculos
   source catalogo_veiculos/bin/activate
   pip3 install -r requirements.txt
