@@ -17,14 +17,33 @@ Este é um projeto de catálogo de veículos, desenvolvido com Django (API) no b
    git clone https://github.com/IPrado2/Catalogo_Veiculos.git
 <br>
 
-2. Configure o ambiente do back-end (Django):
+2. Configure o ambiente do back-end (Django):<br>
+   (Em alguns casos é necessário utilizar 'python3' e 'pip3', dependendo da versão do seu python e do sistema operacional)<br>
 
    ```shell
      cd Django
-     python3 -m venv catalogo_veiculos
+     python -m venv catalogo_veiculos
+   ```  
+  
+Os passos a seguir dependem da versão do seu sistema operacional:<br>
+
+LINUX:<br>
+
+   ```shell
      source catalogo_veiculos/bin/activate
-     pip3 install -r requirements.txt
-     python3 manage.py migrate
+   ```
+<br>
+WINDOWS:<br>
+   . POWERSHELL (ADMIN):<br>
+      
+      Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
+      .\catalogo_veiculos\Scripts\Activate.ps1
+      
+
+
+      pip install -r requirements.txt
+      cd Catalogo_v\
+      python manage.py migrate
 <br>
 
 3. Configure o ambiente do front-end (Angular):
