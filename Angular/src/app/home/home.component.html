@@ -62,7 +62,7 @@
 					    <div class="card">
                             <img class="card-img-top" [src]="veiculo.foto ? PhotoUrl + veiculo.foto : 'https://w7.pngwing.com/pngs/285/84/png-transparent-computer-icons-error-super-8-film-angle-triangle-computer-icons.png'">
 					        <div class="card-body"> 
-					            <h1 class="font-weight-bold pt-1">{{veiculo.nome}}</h1>
+                                <h1 [ngClass]="{'small-font': veiculo.nome?.length > 17 }" class="font-weight-bold pt-1">{{veiculo.nome}}</h1>
 					            <div class="text-muted description">{{ veiculo.marca }} - {{ veiculo.modelo }}</div>
 					            <div class="d-flex align-items-center justify-content-between pt-3">
 					                <div class="d-flex flex-column">

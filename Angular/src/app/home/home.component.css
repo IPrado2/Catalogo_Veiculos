@@ -364,3 +364,6 @@ button:hover::before {
 .t-green{
     color: #0B3948;
 }
+.small-font {
+  font-size: 17px;
+}
