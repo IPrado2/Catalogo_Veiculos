@@ -82,7 +82,7 @@ Dentro do Painel de Administração, o usuário possui as seguintes funcionalida
 
 2.2 Cadastro de Modelo: Permite adicionar novos modelos associados às marcas já cadastradas. Ter modelos separados facilita a organização e busca dos veículos.<br>
 
-2.3 Cadastro de Veículo: Oferece a possibilidade de inserir novos veículos no sistema. Cada veículo cadastrado pode ter uma marca, modelo, ano, cor e valor específicos.<br>
+2.3 Cadastro de Veículo: Oferece a possibilidade de inserir novos veículos no sistema. Cada veículo cadastrado pode ter uma marca, modelo e valor específicos.<br>
 
 2.4 Edição de Marca, Modelo e Veículo: Permite que o usuário realize alterações nos dados das marcas, modelos e veículos já existentes no sistema.<br>
 
